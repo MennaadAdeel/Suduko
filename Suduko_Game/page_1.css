@@ -1,0 +1,97 @@
+.body_page_1 {
+    text-align: center;
+    padding-top: 15%;
+    padding-bottom: 15cm;
+    background: linear-gradient(-45deg, #dcd7d6,#8e5948,#5a5c34,#70574f);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    color: white
+}
+
+@keyframes gradient{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+
+}
+
+
+#begin {
+    top: 49%;
+    left: 39.5%;
+    width: 280px;
+
+}
+
+
+
+#help {
+    top: 64%;
+    left: 39.5%;
+    width: 280px;
+
+}
+
+
+button {
+    height: 70px;
+    font-size: x-large;
+    font-weight: bold;
+    background-color:#c19d7b;
+    border: solid 4px rgb(231, 221, 212);
+    border-radius: 30px;
+    color:  #70574f;
+    width: 280px;
+    position: absolute;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+#game_type {
+    position: absolute;
+    text-align: center;
+    top: 80%;
+    left: 34%;
+
+}
+
+.label {
+    height: 15px;
+    width: 10px;
+    left: 50%;
+    width: 90px;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+h1 {
+    margin-top: 0%;
+    text-align: CENTER;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: XX-LARGE;
+}
+
+
+.input-name {
+    top: 20%;
+    height: 35px;
+    width: 240px;
+    color:  #70574f;
+    font-size: x-large;
+    border: solid 4px rgb(231, 221, 212);
+    border-radius: 30px;
+    outline: 0;
+    background-color:#c19d7b;
+    padding: 15px;
+    font-size: x-large;
+    text-align: center;
+
+}

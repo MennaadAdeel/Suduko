@@ -1,0 +1,138 @@
+.body_page_2 {
+    text-align: center;
+    padding-bottom: 15cm;
+    background: linear-gradient(-45deg, #dcd7d6,#8e5948,#5a5c34,#70574f);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    color: white
+}
+
+
+@keyframes gradient{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+
+}
+
+
+ h1{
+     margin-top: 0%;
+     text-align: CENTER;
+     font-family: CURSIVE;
+     font-size: XXX-LARGE;
+ }
+
+ #show
+ {
+    top: 26%;
+    left: 80%;
+ }
+ .box{
+     height: 156px;
+     width: 156px;
+     border: solid white 2px;
+     background-color: #333333;
+     display: grid;
+     border-radius: 50px;
+     grid-template-columns: auto auto auto;
+ }
+ #main{
+     height: 480px;
+     width: 480px;
+     border: solid white 5px;
+     display: flex;
+     flex-direction: row;
+     border-radius: 10px;
+     margin-left: 30%;
+     margin-top: -1%;
+ }
+ .cell{
+     height: 50px;
+     width: 50px;
+     border: solid white 1px;
+     text-align: center;
+     background-color: #333333;
+     text-align: center;
+     font-size: x-large;
+     font-weight: bold;
+ }
+ input{
+     height: 45px;
+     width: 44px;
+     border: none;
+     text-align: center;
+     font-size: x-large;
+     font-weight: bold;
+     background-color: #a5928b;
+     color: white;
+ }
+ button{
+     height: 70px;
+     width: 200px;
+     font-size: x-large;
+     font-weight: bold;
+     background-color:#c19d7b;
+     border: solid 4px rgb(231, 221, 212);
+     border-radius: 30px;
+     color: white;
+     position: absolute;
+     cursor: pointer;
+ }
+ #start{
+     top: 26%;
+     left: 5%;
+ }
+ #replay{
+     top: 45%;
+     left: 5%;
+ }
+ #answer{
+    top: 60%;
+    left: 75%;
+ }
+ 
+ #game_type{
+     position: absolute;
+     top: 24%;
+     left: 75%;
+     
+ }
+ 
+ .label{
+     height: 15px;
+     width: 15px;
+     cursor: pointer;
+ }
+ 
+ #help{
+     left: 0%;
+     top: 150%;
+ }
+
+ 
+ #timer{
+     top: 10%;
+     position: absolute;
+     left: 3%;
+     font-size: x-large;
+     color: white;
+     font-weight: bold;
+     
+ }
+
+ .verse{
+    top: 55%;
+    left: 4%;
+    position: absolute;
+    font-family: CURSIVE;
+    font-size: XX-LARGE;
+ }
+ 
+ 
